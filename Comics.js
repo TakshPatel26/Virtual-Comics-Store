@@ -62,6 +62,8 @@ AFRAME.registerComponent("comics", {
         color:"#0077CC",
         opacity:1,
       });
+      entityEl.setAttribute("cursor-listener", {});
+
       return entityEl;
     },
     createThumbNail: function (item){
